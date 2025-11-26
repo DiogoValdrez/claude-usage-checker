@@ -44,7 +44,7 @@ Clone this repository to your GNOME extensions directory:
 
 ```bash
 git clone https://github.com/yourusername/claude-usage-checker.git \
-  ~/.local/share/gnome-shell/extensions/claude-usage-checker@gnome
+  ~/.local/share/gnome-shell/extensions/claude-usage-checker@DiogoValdrez.github.com
 ```
 
 ### 3. Enable the Extension
@@ -56,7 +56,7 @@ Restart GNOME Shell:
 Then enable the extension:
 
 ```bash
-gnome-extensions enable claude-usage-checker@gnome
+gnome-extensions enable claude-usage-checker@DiogoValdrez.github.com
 ```
 
 Or use GNOME Extensions app to enable it.
@@ -101,7 +101,7 @@ The script uses `--dangerously-skip-permissions` to avoid interactive prompts. E
 
 Test the Python script directly:
 ```bash
-python3 ~/.local/share/gnome-shell/extensions/claude-usage-checker@gnome/get-usage.py
+python3 ~/.local/share/gnome-shell/extensions/claude-usage-checker@DiogoValdrez.github.com/get-usage.py
 ```
 
 ## Development

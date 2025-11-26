@@ -173,8 +173,8 @@ class ClaudeUsageIndicator extends PanelMenu.Button {
             const formatBar = (percent) => {
                 const barLength = 20;
                 const filled = Math.round((percent / 100) * barLength);
-                // const bar = '●'.repeat(filled) + '○'.repeat(barLength - filled);
-                const bar = '▰'.repeat(filled) + '▱'.repeat(barLength - filled);
+                const bar = '●'.repeat(filled) + '○'.repeat(barLength - filled);
+                // const bar = '▰'.repeat(filled) + '▱'.repeat(barLength - filled);
                 return `${bar}`;
             };
             
