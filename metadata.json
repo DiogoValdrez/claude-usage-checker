@@ -1,0 +1,12 @@
+{
+  "name": "Claude Code Usage",
+  "description": "Monitor your Claude Code token usage and costs from the GNOME panel",
+  "uuid": "claude-usage-checker@gnome",
+  "shell-version": [
+    "42",
+    "45",
+    "46"
+  ],
+  "url": "https://github.com/yourusername/claude-usage-checker",
+  "version": 1
+}

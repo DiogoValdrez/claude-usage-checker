@@ -1,0 +1,11 @@
+.claude-usage-label {
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+
+
+.popup-menu-item:insensitive {
+    color: inherit;
+}
+
